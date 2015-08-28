@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Todos</h1>
+
+<div id="todolist"></div>
+<div id="todolist_prerender">
+  <%= react_component('TodoList', {todos: [{id:2, body: '桃鉄買う', status: 0}]}, {prerender: true}) %>
+</div>
+<br>
+
+<%= link_to 'New Todo', new_todo_path %>

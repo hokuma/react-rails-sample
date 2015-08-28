@@ -1,0 +1,9 @@
+node_modules
+npm-debug.log
+vendor
+
+log
+tmp
+db/*.sqlite3
+app/assets/javascripts/bundle.js
+app/assets/javascripts/components.js
