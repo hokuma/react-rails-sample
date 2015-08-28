@@ -1,1 +1,5 @@
-react-rails sample project
+# Usage
+```
+npm install
+bin/rails s
+```
